@@ -1,0 +1,76 @@
+						/* Meu primeiro arquivo css
+						Regra basica
+
+						seletor{
+							propriedade:valor;
+							proriedade2:valor2;
+							
+						}
+						*/
+						/*TAGS*/
+						*{ 
+							font-family: Helvetica, Arial;
+							margin:0; 
+							padding:0;
+						}
+						header{
+							background-color: #999999;
+							height: 100px;
+							
+						}
+
+
+						body{
+							text-shadow: 1px 1px 1px #111111;
+							/*background-image: url('fundo_branco2.jpg');*/
+						}
+						
+
+						
+
+						
+
+						footer{
+							clear: both;
+							height: 50px;
+							background-color: #999999;
+							padding: 10px;
+							text-shadow: 1px 1px 1px #111111;
+						}
+
+						h1{
+							text-shadow: 1px 1px 1px #111111;
+							text-align: center;
+							margin: 0 0 50px 0;
+						}
+
+						p{
+							text-align: justify;
+						}
+
+						/*IDs*/
+						#div_principal{
+							background-image: url('decameron.jpeg');
+							background-size: 100%;
+							height: 500px;
+							padding: 100px;
+							color: white;
+							
+						}
+				
+						#div_footer{
+							text-shadow: 1px 1px 1px #111111;
+							text-align: center;
+						}
+						
+						/*class */
+						.container{
+							width: 960px
+							margin: 0 auto;
+							
+
+						}
+
+						.efeito{
+							background-color: rgba(0,0,0,0.5);
+						}
